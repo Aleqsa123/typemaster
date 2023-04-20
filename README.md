@@ -36,8 +36,8 @@ and here is mobile version screenshot: ![](./assets/screenshots/mobile-screensho
 
 ### Links
 
-- Solution URL: [https://github.com/Aleqsa123/equalizer]
-- Live Site URL: [https://aleqsa123.github.io/equalizer/]
+- Solution URL: [https://github.com/Aleqsa123/typemaster]
+- Live Site URL: [https://aleqsa123.github.io/typemaster/]
 
 ## My process
 
@@ -75,7 +75,7 @@ It is time using javascript in projects.
 
 ## Author
 
-- Fronendmentor - [Aleqsa123] (https://www.frontendmentor.io/profile/Aleqsa123)
+- Frontendmentor - [Aleqsa123] (https://www.frontendmentor.io/profile/Aleqsa123)
 - Github - [Aleqsa123](https://github.com/Aleqsa123)
 - Linkedin - [Aleksi Merebashvili](https://www.linkedin.com/in/aleksi-merebashvili-36627426/)
 - Facebook - [Aleksi Merebashvili](https://www.facebook.com/aleksi.merebashvili)
