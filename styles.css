@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-size: 10px;
+}
+
+body {
+    width: 37.5rem;
+    height: 100vh;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.main {
+    width: 37.5rem;
+    height: 300.7rem;
+    background: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*styling other elements*/
+
+/*header elements*/
+.header-logo {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2.7rem;
+    margin-left: 2.4rem;
+}
+
+.gray {
+    width: 15rem;
+    height: 4.8rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-transform: uppercase;
+    color: #162542;
+    background-color: #E8EFF2;
+    padding: 1.1rem 1.45rem 1.1rem 1.35rem;
+    margin-top: 2.3rem;
+    margin-right: 2.45rem;
+    border-radius: 0.8rem;
+}
+
+/* Other elements*/
+
+h1 {
+    width: 32.7rem;
+    height: 9.6rem;
+    font-weight: 900;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    color: #162542;
+    margin: 6.8rem 2.4rem 0rem 2.4rem;
+}
+
+h1 + p {
+    width: 32.7rem;
+    height: 7.8rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #7B8BAD;
+    margin: 3.2rem 2.4rem 0rem 2.4rem;
+}
+
+.orange {
+    display: inline-block;
+    width: 15rem;
+    height: 4.8rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #F16718;
+    padding: 1.1rem 1.45rem 1.1rem 1.35rem;
+    margin-top: 4.3rem;
+    margin-left: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+span {
+    width: 12.7rem;
+    height: 2.6rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-transform: uppercase;
+    color: #7B8BAD;
+    margin-left: 3.2rem;
+}
+
+.div1 {
+    display: none;
+    width: 25.5rem;
+    height: 24rem;
+    background: #E8EFF2;
+    border-radius: 2rem;
+}
+
+.div2 {
+    display: none;
+    width: 25.5rem;
+    height: 24rem;
+    background: #E8EFF2;
+    border-radius: 2rem;
+}
+
+/* Images */
+
+.keyboard {
+    width: 35rem;
+    height: 33rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background-image: url("./assets/mobile/image-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    margin-left: 2.4rem;
+}
+
+.image-div {
+    display: inline-block;
+    width: 11rem;
+    height: 18rem;
+    margin-top: 2.4rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-color: #F16718;
+}
+
+.phone-keyboard {
+    width: inherit;
+    height: inherit;
+    border-radius: 0rem 1rem 1rem 0rem;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+}
+
+.glass {
+    display: inline-block;
+    width: 21rem;
+    height: 18rem;
+    background-image: url("./assets/mobile/image-glass-and-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1rem;
+    margin: 2.4rem 2.4rem 0rem 2.4rem;
+}
+
+h2 {
+    width: 25.5rem;
+    height: 10.8rem;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #162542;
+    margin: 8.2rem 6rem 0rem 6rem;    
+}
+
+h2 + p {
+    width: 32.7rem;
+    height: 10.4rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #7B8BAD;
+    margin: 2.4rem 2.4rem 0rem 2.4rem;
+}
+
+h3 {
+    width: 32.7rem;
+    height: 5.6rem;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin: 4.8rem 2.4rem 0rem 2.4rem;
+}
+
+h3 + p {
+    width: 32.7rem;
+    height: 10.4rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #7B8BAD;
+    margin: 2.4rem 2.4rem 0rem 2.4rem;
+}
+
+footer {
+    width: 27.2rem;
+    height: 2.6rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #7B8BAD;
+    margin: 9.6rem 5.2rem 0rem 5.2rem;
+    padding-bottom: 5rem;
+}
+
+.icon {
+    border-radius: 1.6rem;
+    background-color: #F16718;
+    margin: 11.1rem 15.5rem 0rem 15.5rem;
+}
+
+.compatible {
+    min-width: 6.5rem;
+    min-height: 6.5rem;
+    padding: 2.245rem 2rem 2.6rem 2rem;
+}
+
+.bluetooth {
+    min-width: 6.5rem;
+    min-height: 6.5rem;
+    padding: 1.9rem 2.36rem 1.9rem 2.36rem;
+}
+
+.battery {
+    min-width: 6.5rem;
+    min-height: 6.5rem;
+    padding: 2.3rem 1.6rem 2.2rem 1.6rem;
+}
+
+.bulb {
+    min-width: 6.5rem;
+    min-height: 6.5rem;
+    padding: 2rem;
+}
+
+/* Breakpoint at 768px - Tablet*/
+
+@media screen and (min-width: 768px) {
+
+    body {
+        width: 76.8rem;
+    }
+    
+    .main {
+        width: 76.8rem;
+        height: 100vh;
+    }
+
+    
+    /*styling other elements*/
+    
+    /*header elements*/
+    .header-logo {
+        margin-top: 4.9rem;
+        margin-left: 3.9rem;
+    }
+    
+    .gray {
+        width: 17.5rem;
+        height: 5.8rem;
+        padding: 1.6rem 2.6rem;
+        margin-top: 4rem;
+        margin-right: 4rem;
+    }
+    
+    /* Other elements*/
+
+    .titlediv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    h1 {
+        width: 33.9rem;
+        margin: 13.1rem 0rem 0rem 3.9rem;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    h1 + p {
+        width: 33.9rem;
+        margin: 3.4rem 0rem 0rem 3.9rem;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .orange {
+        width: 17.5rem;
+        height: 5.8rem;
+        padding: 1.6rem 2.6rem;
+        margin-top: 5.5rem;
+        margin-left: 3.9rem;
+
+    }
+    
+    span {
+        margin-left: 3.7rem;
+    }
+    
+    /* Images */
+    
+    .keyboard {
+        width: 33.5rem;
+        height: 45.8rem;
+        border-radius: 1rem 0rem 0rem 1rem;
+        background-image: url("./assets/mobile/image-keyboard.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5.8rem 0rem 0rem 5rem;
+        grid-column: 2;
+        grid-row: 1/5;
+    }
+    
+    .centraldiv {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 76.8rem;
+        overflow: hidden;
+        margin: 3.9rem;
+        margin-bottom: 0rem;
+    }
+
+
+    .image-div {
+        width: 25rem;
+        height: 36rem;
+        margin: 0rem;
+        border-radius: 1.5rem;
+        background-color: #F16718;
+    }
+    
+    .phone-keyboard {
+        width: inherit;
+        height: inherit;
+        border-radius: 1.5rem;
+        opacity: 0.75;
+        mix-blend-mode: multiply;
+    }
+    
+    .glass {
+        width: 41rem;
+        height: 36rem;
+        background-image: url("./assets/mobile/image-glass-and-keyboard.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 1.5rem;
+        margin: 0rem;
+        margin-left: 2.8rem;
+    }
+    
+    .wireless {
+        display: flex;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
+    h2 {
+        text-align: left;
+        margin: 0rem;
+        margin-top: 8rem;    
+    }
+    
+    h2 + p {
+        width: 39.8rem;
+        height: 7.8rem;
+        text-align: left;
+        margin: 8rem 0rem 0rem 5rem;
+    }
+
+    .characters {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(33.9rem, 1fr));
+        margin-left: 3.9rem;
+    }
+    
+    h3 {
+        width: 25.5rem;
+        text-align: left;
+        margin: 4rem 0rem 0rem 0rem;
+    }
+    
+    h3 + p {
+        width: 28.1rem;
+        text-align: left;
+        margin: 2.4rem 0rem 0rem 0rem;
+    }
+    
+    .icon {
+        margin: 0;
+    }
+    
+    .compatible,
+    .bluetooth {
+        margin: 14.2rem 0rem 0rem 0rem;
+    }
+    
+    .battery,
+    .bulb {
+        margin: 7.2rem 0rem 0rem 0rem;
+    }
+
+    footer {
+        margin: 14.2rem 24.8rem 0rem 24.8rem;
+        padding-bottom: 4.3rem;
+    }
+
+}    
+
+     
+/* Breakpoint at 1440px - Desktop (as in the challenge)*/
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 144rem;
+    }
+    
+    .main {
+        width: 144rem;
+    }
+
+    
+    /*styling other elements*/
+    
+    /*header elements*/
+    .header-logo {
+        margin-top: 6.4rem;
+        margin-left: 16.5rem;
+    }
+    
+    .gray {
+        margin-top: 5.5rem;
+        margin-right: 16.5rem;
+    }
+
+    .gray:hover {
+        background-color: #162542;
+        color: #FFFFFF;
+    }
+    
+    /* Other elements*/
+
+    .titlediv {
+        display: grid;
+        grid-template-columns: 3fr 3fr 1fr;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    h1 {
+        width: 44.5rem;
+        height: 11.2rem;
+        margin: 15.2rem 0rem 0rem 16.5rem;
+        font-size: 5.6rem;
+        line-height: 5.6rem;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    h1 + p {
+        width: 44.5rem;
+        margin: 2.4rem 0rem 0rem 16.5rem;
+        font-size: 1.8rem;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .order-release {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .orange {
+        margin-top: 4rem;
+        margin-left: 16.5rem;
+    }
+
+    .orange:hover {
+        background-color: #FF9B62;
+    }
+    
+    span {
+        margin-left: 4rem;
+    }
+
+    .div1 {
+        display: inline-block;
+        margin-top: 5.8rem;
+        margin-left: 3rem;
+    }
+    
+    /* Images */
+    
+    .keyboard {
+        width: 54rem;
+        height: 48rem;
+        border-radius: 1rem;
+        background-image: url("./assets/mobile/image-keyboard.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5.8rem 0rem 0rem 11rem;
+        grid-column: 2;
+        grid-row: 1/5;
+    }
+    
+    .centraldiv {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 3.9rem 16.5rem 0rem 0rem;
+        flex-direction: row;
+    }
+    
+    .div2 {
+        display: inline-block;
+        position: relative;
+        left: -3rem;
+        width: 16.5rem;
+        align-self: flex-end;
+    }
+
+    .image-div {
+        width: 25.5rem;
+        height: 48rem;
+        margin: 0rem;
+        border-radius: 2rem;
+        background-color: #F16718;
+    }
+    
+    .phone-keyboard {
+        width: inherit;
+        height: inherit;
+        border-radius: 2rem;
+        opacity: 0.75;
+        mix-blend-mode: multiply;
+    }
+    
+    .glass {
+        width: 44.5rem;
+        height: 48rem;
+        background-image: url("./assets/mobile/image-glass-and-keyboard.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 2rem;
+        margin: 0rem;
+        margin-left: 3rem;
+    }
+
+    .wireless {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    h2 {
+        text-align: left;
+        margin: 0rem;
+        margin-top: 11.2rem;
+        margin-left: 12.5rem;
+    }
+    
+    h2 + p {
+        width: 25.5rem;
+        height: 13rem;
+        text-align: left;
+        margin: 0rem;
+        margin-top: 2.7rem;
+    }
+
+    .characters {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(33.9rem, 1fr));
+        margin-left: 3.9rem;
+        margin-top: 16.8rem;
+    }
+    
+    h3 {
+        width: 18.5rem;
+        text-align: left;
+        margin: 4.8rem 0rem 0rem 0rem;
+    }
+    
+    h3 + p {
+        width: 25.5rem;
+        height: 13rem;
+        text-align: left;
+    }
+    
+    .icon {
+        margin: 0;
+    }
+    
+    .compatible,
+    .bluetooth {
+        margin: 0rem;
+    }
+    
+    .battery,
+    .bulb {
+        margin: 0rem;
+    }
+
+    footer {
+        margin: 12.8rem auto 0rem auto;
+        padding: 0rem;
+        padding-bottom: 3.9rem;
+    }
+
+}
